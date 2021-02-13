@@ -19,7 +19,7 @@ services:
       TYPE: FTBA
       FTB_MODPACK_ID: 52
       FTB_MODPACK_VERSION_ID: 216
-    image: itzg/minecraft-server:multiarch
+    image: itzg/minecraft-server:java8-multiarch
     restart: always
     networks:
       - mc-network
